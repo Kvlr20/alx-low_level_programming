@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - a function that prints a string, in reverse
+ * rev_string - a function that reverses a string
  * @s: string
  * Return: string in reverse
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char rev = s[0];
 	int  counter = 0;
